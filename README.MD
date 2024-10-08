@@ -40,4 +40,32 @@ graph TD
     
     W --> Z[Docker and Kubernetes Integration]
 
+    Y --> AA[JVM Debugging Techniques]
+    AA --> AB[Heap Dump Analysis]
+    AA --> AC[Thread Dump Analysis]
+
+    Z --> AD[Container Orchestration]
+    AD --> AE[Kubernetes Scaling]
+    AE --> AF[Helm for Kubernetes]
+
+    V --> AG[OAuth2 and JWT]
+    AG --> AH[Spring Security Customization]
+    AH --> AI[Authentication and Authorization]
+
+    Q --> AJ[Asynchronous Programming]
+    AJ --> AK[Reactor Schedulers]
+    AK --> AL[Backpressure in Reactive Streams]
+
+    G --> AM[Thread Pool Tuning]
+    AM --> AN[Lock-Free Algorithms]
+    AN --> AO[Atomic Variables]
+
+    D --> AP[Type Erasure]
+    AP --> AQ[Bounded Wildcards]
+    AQ --> AR[PECS Producer Extends Consumer Super]
+
+    O --> AS[WatchService API]
+    AS --> AT[File System Notifications]
+    AT --> AU[Symbolic Links Handling]
+
     classDef greenText fill:#9f6,color:#000,stroke:#333,stroke-width:2px;
