@@ -31,9 +31,13 @@ graph TD
     
     U --> V[Spring Security]
     V --> W[Microservices with Spring Cloud]
+    W[Microservices with Spring Cloud]:::greenText
     
     H --> X[Garbage Collection Tuning]
+    X[Garbage Collection Tuning]:::greenText
     
     X --> Y[JVM Performance Monitoring and Profiling]
     
     W --> Z[Docker and Kubernetes Integration]
+
+    classDef greenText fill:#9f6,color:#000,stroke:#333,stroke-width:2px;
