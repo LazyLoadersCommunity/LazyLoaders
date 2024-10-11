@@ -1,0 +1,25 @@
+```mermaid
+graph TD
+    C[Spring Security Basics]
+    C --> D[Authentication Manager]
+    D --> E[UsernamePasswordAuthenticationToken]
+    C --> F[Custom UserDetailsService]
+    F --> G[Password Encoding]
+    G --> H[BCryptPasswordEncoder]
+    C --> I[Role-based Authorization]
+    I --> J[GrantedAuthority and Authorities]
+    I --> K[Securing Endpoints with @PreAuthorize]
+    I --> L[Configuring Method Security]
+    D --> M[SecurityFilterChain]
+    M --> N[Configuring Security Filters]
+    N --> O[Custom Authentication Filter]
+    M --> P[HttpSecurity Configuration]
+    P --> Q[Form-based Login]
+    P --> R[Exception Handling]
+    R --> S[AccessDeniedHandler]
+
+    J --> T[Custom Roles and Permissions]
+
+    P --> U[Stateless JWT Authentication]
+    U --> V[JWT Token Generation]
+    V --> W[JWT Token Validation]
