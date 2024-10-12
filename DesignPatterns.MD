@@ -23,7 +23,7 @@ graph TD
   %% Structural Patterns
   R[Structural Patterns] --> S[Adapter]
   R --> T[Bridge]
-  R --> U[<a href='http://google.com'>Composite</a>]:::blue
+  R --> U[<a href='http://google.com'>Composite</a>]:::green
   R --> V[Decorator]
   R --> W[Facade]
   R --> X[Flyweight]
