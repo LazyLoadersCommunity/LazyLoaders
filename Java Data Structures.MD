@@ -1,6 +1,5 @@
 ```mermaid
 graph TD
-    title[Essential Java Data Structures with Multithreading]
 
     A[Data Structures in Java] --> B[Arrays]
     A --> C[ArrayList]
