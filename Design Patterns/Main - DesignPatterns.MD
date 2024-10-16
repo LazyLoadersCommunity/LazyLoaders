@@ -2,7 +2,7 @@
 graph TD
 
   %% Behavioral Patterns
-  A[Behavioral Patterns] --> B[Memento]
+  A[Behavioral Patterns]:::blue --> B[Memento]
   A --> C[Observer]:::blue
   A --> D[Chain of Responsibility]
   A --> E[Command]
