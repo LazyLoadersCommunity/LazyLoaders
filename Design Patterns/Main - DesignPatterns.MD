@@ -3,7 +3,7 @@ graph TD
 
   %% Behavioral Patterns
   A[Behavioral Patterns] --> B[Memento]
-  A --> C[<a href='https://medium.com/@seferovramin7/observer-design-pattern-964a054c73f5'>Observer</a>]:::blue
+  A --> C[Observer]:::blue
   A --> D[Chain of Responsibility]
   A --> E[Command]
   A --> F[State]
