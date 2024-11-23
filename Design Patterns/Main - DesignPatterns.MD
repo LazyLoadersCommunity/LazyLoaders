@@ -2,12 +2,12 @@
 graph TD
 
   %% Behavioral Patterns
-  A[Behavioral Patterns]:::blue --> B[Memento]
-  A --> C[Observer]:::blue
+  A[Behavioral Patterns]:::green --> B[Memento]:::green
+  A --> C[Observer]:::green
   A --> D[Chain of Responsibility]
   A --> E[Command]
   A --> F[State]
-  A --> G[Strategy]
+  A --> G[Strategy]:::green
   A --> H[Iterator]
   A --> I[Template Method]
   A --> J[Mediator]
@@ -23,7 +23,7 @@ graph TD
   %% Structural Patterns
   R[Structural Patterns] --> S[Adapter]
   R --> T[Bridge]
-  R --> U[<a href='http://google.com'>Composite</a>]:::green
+  R --> U[Composite]
   R --> V[Decorator]
   R --> W[Facade]
   R --> X[Flyweight]
